@@ -18,45 +18,6 @@ Your task in this part of the assignment is to write a C program using structs a
 ./balanced tests/test0.txt
 Your program should check whether the expression in the input file is balanced, and then print to the command line "yes" if the expression is balanced, and "no" if it is not.
 
-The corresponding expected outputs are in the answers directory: answers/answer0.txt.
-
-How to compile, run, and test your code
-First, you should rename balanced_provided.c to balanced.c by entering:
-
-mv balanced_provided.c balanced.c
-Your program should be written in the file balanced.c.
-
-
-To compile your source code balanced.c, you can type:
-
-gcc -g -Wall -Werror -fsanitize=address -std=c99 -o balanced balanced.c
-We've provided in that command several important useful compiler flags.
-
- 
-
-Alternatively, to build the executable, you can type:
-
-make
- 
-
-Once your program is successfully compiled, you can run your program:
-
-./balanced tests/test0.txt
-You should make sure your C program returns EXIT_SUCCESS or 0 indicating successful program termination.
-
- 
-
-To use the autograder script to test your program, you can type:
-
-./autograder
-or
-
-python3 autograder.py
- 
-
-We will be automatically building, testing, and grading your assignment. Make sure that we can build your assignment by just using the Makefile and that we can run the program by invoking our autograder. Make sure to follow the required output format; any extraneous output such as debugging statements will confuse the grading program. You can check if you have accidentally modified your autograder:
-
-git diff autograder.py
 2. bstLevelOrder: breadth-first level order traversal of a binary search tree using a queue 
 Your task in this part of the assignment is to write a C program that constructs a binary search tree from a list of input numbers, and then print out the binary search tree in a level order, left-to-right, traversal of the tree. You may find it helpful to review the properties of a binary search tree, and the various flavors of tree traversal order. In a binary search tree, the key in each node is greater than all keys in its left subtree, and is lesser than all keys in its right subtree.
 
