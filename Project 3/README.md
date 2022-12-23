@@ -11,15 +11,6 @@ Expected outputs from your program for each test case are in the answers/ direct
 
 For example, the base-10 number -4319 has a binary two's complement representation of 1110_1111_0010_0001, which you should print out in hexadecimal notation as EF21.
 
-How to compile, run, and test your code
-Instructions from Programming Assignment 1 and 2 carry over.
-
-This means that the correct way to invoke the autograder script is through either of these two commands:
-
-./autograder.py
-or
-
-python3 autograder.py
 2. binSub: Finding the difference of two signed integers via operations on binary numbers 
 In computer processors all arithmetic operations are carried out as basic logical operations on binary numbers. In this part of the assignment you will perform subtraction on signed char (8-bit) integers, where positive and negative numbers are encoded in the two's complement number system. Recall that for subtraction operations:
 
