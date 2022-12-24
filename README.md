@@ -1,4 +1,4 @@
-# Co1. fullyAssociative: Simulating a fully associative cache with FIFO cache replacement policy (easy) (30 points)
+1. fullyAssociative: Simulating a fully associative cache with FIFO cache replacement policy 
 Your task in this section is to build a program that simulates the behavior of a CPU cache. 
 
 Input format
@@ -30,7 +30,7 @@ Expected outputs from your program for each test case are in the answers/ direct
 
 Indicating that memory accesses led to 16 cache hits, 1 cache miss, and no cache evictions.
 
-2. directMapped: Simulating a direct-mapped cache (easy) (30 points)
+2. directMapped: Simulating a direct-mapped cache 
 Your task in this section is to modify your simulator so that it simulates a direct-mapped cache.
 
 Input format
@@ -57,7 +57,7 @@ Expected outputs from your program for each test case are in the answers/ direct
 
 Indicating that memory accesses led to 16 cache hits, 1 cache miss, and no cache evictions.
 
-3. setAssociative: Simulating a 4-way set-associative cache (medium) (30 points)
+3. setAssociative: Simulating a 4-way set-associative cache 
 Your task in this section is to modify your simulator so that it simulates a set-associative cache.
 
 Input format
@@ -87,7 +87,7 @@ Indicating that memory accesses led to 16 cache hits, 1 cache miss, and no cache
 Think about the following:
 Notice that all three of the above cache designs are 256-byte caches. Which one had the least cache misses and cache evictions? What was the relative implementation complexity of each design?
 
-4. cacheBlocking: Optimizing matrix multiplication using cache blocking (hard) (30 points)
+4. cacheBlocking: Optimizing matrix multiplication using cache blocking 
 In this fourth part of the assignment, you will improve a program that does matrix multiplication so that it works better with a cache. You will be working with the pa5/matMul/ and pa5/cacheBlocking/ directories for this part. The pa5/matMul/ directory contains a fully written matrix multiplication program pa5/matMul/matMul.c, its pa5/matMul/autograder.py testing script, test cases in pa5/matMul/tests/, and expected answers in pa5/matMul/answers/. The pa5/cacheBlocking/ directory is where you will write your optimized version of matrix multiplication in pa5/cacheBlocking/cacheBlocking.c.
 
 Correctness 
@@ -109,7 +109,7 @@ The pa5/cacheBlocking/answers/ directory contains the summary statistics for the
 Cache blocking
 You may want to read about cache blocking, which is the main technique you can use to improve cache performance for this part. Further information is in the class lecture, in the lecture slides, the textbook supplementary slides, the textbook, and in this writeup: http://csapp.cs.cmu.edu/3e/waside/waside-blocking.pdfLinks to an external site.
 
-5. cacheOblivious: Optimizing matrix transpose for better performance with a cache (medium) (30 points)
+5. cacheOblivious: Optimizing matrix transpose for better performance with a cache 
 In this fifth part of the assignment, you will improve a program that does matrix transpose so that it works better with a cache. You will be working with the pa5/matTrans/ and pa5/cacheOblivious/ directories for this part. The pa5/matTrans/ directory contains a fully written matrix transposition program pa5/matTrans/matTrans.c, its pa5/matTrans/autograder.py testing script, test cases in pa5/matTrans/tests/, and expected answers in pa5/matTrans/answers/. The pa5/cacheOblivious/ directory is where you will write your optimized version of matrix transposition in pa5/cacheOblivious/cacheOblivious.c.
 
 Correctness 
